@@ -9,6 +9,10 @@ BillForge is a simple and elegant web-based invoicing tool for freelancers. It h
 - Generate and download styled invoices as PDFs
 - Clean HTML/CSS/JS frontend connected to a FastAPI backend
 - Dockerized for easy setup and deployment
+  
+##Working Demo Link
+
+https://billforge.onrender.com
 
 ## Tech Stack
 
@@ -17,11 +21,11 @@ BillForge is a simple and elegant web-based invoicing tool for freelancers. It h
 - **PDF Generation**: WeasyPrint
 - **Containerization**: Docker
 
-## Screenshot
-This is the UI
+## This is the UI
+
 ![SCR-20250503-qzjc](https://github.com/user-attachments/assets/a4c12a59-7b53-4eab-aec0-08ed2244fda2)
 
-This is an example invoice
+##This is an example invoice
 
 <img width="492" alt="Screenshot 2025-05-03 at 7 34 14 PM" src="https://github.com/user-attachments/assets/2026a14a-3998-4bb5-89bb-db5489e82cec" />
 
