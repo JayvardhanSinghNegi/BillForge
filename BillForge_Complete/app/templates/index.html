@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BillForge</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="/static/logo.png" alt="BillForge Logo">
+        </div>
+        
+        <h1>BillForge - Freelance Invoice Tool</h1>
+
+        <!-- Client Form -->
+        <form id="client-form">
+            <h2>Client Info</h2>
+            <input type="text" placeholder="Client Name" id="client-name">
+            <input type="text" placeholder="Client Email" id="client-email">
+            <button type="button" onclick="submitClient()">Add Client</button>
+            <div id="client-message" class="message"></div>
+        </form>
+
+        <!-- Freelancer Form -->
+        <form id="freelancer-form">
+            <h2>Freelancer Info</h2>
+            <input type="text" placeholder="Freelancer Name" id="freelancer-name">
+            <input type="text" placeholder="Freelancer Email" id="freelancer-email">
+            <button type="button" onclick="submitFreelancer()">Add Freelancer</button>
+            <div id="freelancer-message" class="message"></div>
+        </form>
+
+        <!-- Invoice Form -->
+        <form id="invoice-form">
+            <h2>Invoice Details</h2>
+            <input type="text" placeholder="Project Description" id="project-description">
+            <input type="number" placeholder="Hours Worked" id="hours">
+            <input type="number" placeholder="Hourly Rate (₹)" id="rate">
+            <button type="button" onclick="downloadInvoice()">Download Invoice</button>
+            <div id="invoice-message" class="message"></div>
+        </form>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
