@@ -10,9 +10,7 @@ BillForge is a simple and elegant web-based invoicing tool for freelancers. It h
 - Clean HTML/CSS/JS frontend connected to a FastAPI backend
 - Dockerized for easy setup and deployment
   
-##Working Demo Link
 
-https://billforge.onrender.com
 
 ## Tech Stack
 
