@@ -13,11 +13,11 @@ jobs:
 
       - run:
           name: Build Docker image
-          command: docker build -t jayvardhannegi/billforge:latest .
+          command: docker build -t jayvardansinghnegi/billforge:latest .
 
       - run:
           name: Push Docker image
-          command: docker push jayvardhannegi/billforge:latest
+          command: docker push jayvardansinghnegi/billforge:latest
 
       - run:
           name: Mock Kubernetes Deploy
